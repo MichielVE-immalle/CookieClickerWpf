@@ -1,0 +1,26 @@
+﻿<Window x:Class="CoockieClickerWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CoockieClickerWpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+
+        <Canvas Margin="10" Background="#FF07E4BC">
+
+            <Ellipse x:Name="Coockie" Fill="SaddleBrown" Height="100" Canvas.Left="59" Stroke="Black" StrokeThickness="4" Canvas.Top="39" Width="100" MouseEnter="Coockie_MouseEnter" MouseLeave="Coockie_MouseLeave" MouseLeftButtonDown="Coockie_MouseLeftButtonDown"/>
+
+            <Ellipse Fill="Black" Height="18" Canvas.Left="123" Stroke="Black" Canvas.Top="63" Width="19" RenderTransformOrigin="-0.343,-0.474" MouseEnter="Ellipse_MouseEnter_1" MouseLeave="Ellipse_MouseLeave_1" MouseLeftButtonDown="Ellipse_MouseLeftButtonDown_1"/>
+            <Ellipse Fill="Black" Height="22" Canvas.Left="108" Stroke="Black" Canvas.Top="95" Width="23" MouseEnter="Ellipse_MouseEnter_2" MouseLeave="Ellipse_MouseLeave_2" MouseLeftButtonDown="Ellipse_MouseLeftButtonDown_2"/>
+            <Ellipse Fill="Black" Height="27" Canvas.Left="80" Stroke="Black" Canvas.Top="54" Width="28" MouseEnter="Ellipse_MouseEnter" MouseLeave="Ellipse_MouseLeave" MouseLeftButtonDown="Ellipse_MouseLeftButtonDown"/>
+
+            <TextBlock x:Name="Titel" Canvas.Left="163" TextWrapping="Wrap" Canvas.Top="10" Height="26" Width="178" FontFamily="Showcard Gothic" FontSize="20"><Run Text="cooKIE CLICKER"/><LineBreak/><Run/></TextBlock>
+            <TextBlock x:Name="aantal" Canvas.Left="251" TextWrapping="Wrap" Text="Aantal koekjes" Canvas.Top="176" Width="90" Height="20" FontWeight="Bold" TextDecorations="Underline"/>
+            <TextBlock x:Name="teller" Canvas.Left="59"  TextWrapping="Wrap" Canvas.Top="201" Height="30" Width="339" TextAlignment="Right" FontFamily="Myanmar Text" FontSize="20" Background="#FFE6E692"/>
+
+        </Canvas>
+
+    </Grid>
+</Window>
