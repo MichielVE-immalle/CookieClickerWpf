@@ -47,12 +47,14 @@ namespace CoockieClickerWpf
             {
                 getal = getal + 1;
                 teller.Text = String.Format("{0}", getal);
+                hoeveel.Text = "1 Koekje per klik";
             }
 
             if (getal >= 500)
             {
                 getal = getal + 4;
                 teller.Text = String.Format("{0}", getal);
+                hoeveel.Text = "4 Koekjes per klik";
             }
         }
     }

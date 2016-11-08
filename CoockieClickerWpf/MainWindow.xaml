@@ -19,6 +19,7 @@
             <TextBlock x:Name="Titel" Canvas.Left="163" TextWrapping="Wrap" Canvas.Top="10" Height="26" Width="178" FontFamily="Showcard Gothic" FontSize="20"><Run Text="cooKIE CLICKER"/><LineBreak/><Run/></TextBlock>
             <TextBlock x:Name="aantal" Canvas.Left="251" TextWrapping="Wrap" Text="Aantal koekjes" Canvas.Top="176" Width="90" Height="20" FontWeight="Bold" TextDecorations="Underline"/>
             <TextBlock x:Name="teller" Canvas.Left="59"  TextWrapping="Wrap" Canvas.Top="201" Height="30" Width="339" TextAlignment="Right" FontFamily="Myanmar Text" FontSize="20" Background="#FFE6E692"/>
+            <TextBlock x:Name="hoeveel" Canvas.Left="265" TextWrapping="Wrap" Canvas.Top="82" Width="133" FontFamily="Viner Hand ITC"/>
 
         </Canvas>
 
