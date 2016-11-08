@@ -41,70 +41,7 @@ namespace CoockieClickerWpf
             Coockie.Stroke = new SolidColorBrush(Colors.Black);
         }
 
-        private void Ellipse_MouseLeave(object sender, MouseEventArgs e)
-        {
-            Coockie.Fill = new SolidColorBrush(Colors.Gray);
-            Coockie.StrokeThickness = 2;
-            Coockie.Stroke = new SolidColorBrush(Colors.Black);
-        }
-
-        private void Ellipse_MouseLeave_1(object sender, MouseEventArgs e)
-        {
-            Coockie.Fill = new SolidColorBrush(Colors.Gray);
-            Coockie.StrokeThickness = 2;
-            Coockie.Stroke = new SolidColorBrush(Colors.Black);
-        }
-
-        private void Ellipse_MouseLeave_2(object sender, MouseEventArgs e)
-        {
-            Coockie.Fill = new SolidColorBrush(Colors.Gray);
-            Coockie.StrokeThickness = 2;
-            Coockie.Stroke = new SolidColorBrush(Colors.Black);
-        }
-
         private void Coockie_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            if (getal < 500)
-            {
-                getal = getal + 1;
-                teller.Text = String.Format("{0}", getal);
-            }
-
-            if (getal >= 500)
-            {
-                getal = getal + 4;
-                teller.Text = String.Format("{0}", getal);
-            }
-        }
-        private void Ellipse_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            if (getal < 500)
-            {
-                getal = getal + 1;
-                teller.Text = String.Format("{0}", getal);
-            }
-
-            if (getal >= 500)
-            {
-                getal = getal + 4;
-                teller.Text = String.Format("{0}", getal);
-            }
-        }
-        private void Ellipse_MouseLeftButtonDown_1(object sender, MouseButtonEventArgs e)
-        {
-            if (getal < 500)
-            {
-                getal = getal + 1;
-                teller.Text = String.Format("{0}", getal);
-            }
-
-            if (getal >= 500)
-            {
-                getal = getal + 4;
-                teller.Text = String.Format("{0}", getal);
-            }
-        }
-        private void Ellipse_MouseLeftButtonDown_2(object sender, MouseButtonEventArgs e)
         {
             if (getal < 500)
             {

@@ -12,9 +12,9 @@
 
             <Ellipse x:Name="Coockie" Fill="SaddleBrown" Height="100" Canvas.Left="59" Stroke="Black" StrokeThickness="4" Canvas.Top="39" Width="100" MouseEnter="Coockie_MouseEnter" MouseLeave="Coockie_MouseLeave" MouseLeftButtonDown="Coockie_MouseLeftButtonDown"/>
 
-            <Ellipse x:Name="ell1" Fill="Black" Height="18" Canvas.Left="123" Stroke="Black" Canvas.Top="63" Width="19" RenderTransformOrigin="-0.343,-0.474" MouseEnter="Coockie_MouseEnter" MouseLeave="Ellipse_MouseLeave_1" MouseLeftButtonDown="Ellipse_MouseLeftButtonDown_1"/>
-            <Ellipse x:Name="ell2" Fill="Black" Height="22" Canvas.Left="108" Stroke="Black" Canvas.Top="95" Width="23" MouseEnter="Coockie_MouseEnter" MouseLeave="Ellipse_MouseLeave_2" MouseLeftButtonDown="Ellipse_MouseLeftButtonDown_2"/>
-            <Ellipse x:Name="ell3" Fill="Black" Height="27" Canvas.Left="80" Stroke="Black" Canvas.Top="54" Width="28" MouseEnter="Coockie_MouseEnter" MouseLeave="Ellipse_MouseLeave" MouseLeftButtonDown="Ellipse_MouseLeftButtonDown"/>
+            <Ellipse x:Name="ell1" Fill="Black" Height="18" Canvas.Left="123" Stroke="Black" Canvas.Top="63" Width="19" RenderTransformOrigin="-0.343,-0.474" MouseEnter="Coockie_MouseEnter" MouseLeave="Coockie_MouseLeave" MouseLeftButtonDown="Coockie_MouseLeftButtonDown"/>
+            <Ellipse x:Name="ell2" Fill="Black" Height="22" Canvas.Left="108" Stroke="Black" Canvas.Top="95" Width="23" MouseEnter="Coockie_MouseEnter" MouseLeave="Coockie_MouseLeave" MouseLeftButtonDown="Coockie_MouseLeftButtonDown"/>
+            <Ellipse x:Name="ell3" Fill="Black" Height="27" Canvas.Left="80" Stroke="Black" Canvas.Top="54" Width="28" MouseEnter="Coockie_MouseEnter" MouseLeave="Coockie_MouseLeave" MouseLeftButtonDown="Coockie_MouseLeftButtonDown"/>
 
             <TextBlock x:Name="Titel" Canvas.Left="163" TextWrapping="Wrap" Canvas.Top="10" Height="26" Width="178" FontFamily="Showcard Gothic" FontSize="20"><Run Text="cooKIE CLICKER"/><LineBreak/><Run/></TextBlock>
             <TextBlock x:Name="aantal" Canvas.Left="251" TextWrapping="Wrap" Text="Aantal koekjes" Canvas.Top="176" Width="90" Height="20" FontWeight="Bold" TextDecorations="Underline"/>
